@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #262626;
+    padding: 20px 30px;
+    border-bottom: 4px solid #2271D1;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
