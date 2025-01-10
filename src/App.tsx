@@ -5,6 +5,7 @@ import './App.css'
 import { createContext } from 'react'
 import { Video, Category } from './classes/video'
 import DB from '../db.json'
+import Home from './routes/Home'
 
 function App() {
   const VideosContext = createContext<Video[]>([])
@@ -24,7 +25,7 @@ function App() {
         <VideosContext.Provider value={videos}>
           <Routes>
             <Route path='/' element={<DefaultLayout />}>
-              <Route index element></Route>
+              <Route index element={<Home />}></Route>
               <Route path="/new" element></Route>
             </Route>
           </Routes>

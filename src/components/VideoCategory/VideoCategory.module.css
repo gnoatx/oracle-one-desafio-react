@@ -1,0 +1,34 @@
+.section {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.nameplate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#cat-0 {
+    background-color: #6BD1FF;
+}
+
+#cat-1 {
+    background-color: #00C86F;
+}
+
+#cat-2 {
+    background-color: #FFBA05;
+}
+
+.title {
+    color: white;
+    text-transform: uppercase;
+}
+
+.thumbnails {
+
+}
