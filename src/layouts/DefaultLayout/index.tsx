@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import Logo from "../../components/Logo";
 import NavButton from "../../components/NavButton";
 import styles from './DefaultLayout.module.css'
@@ -15,9 +15,13 @@ export default function DefaultLayout() {
                 </nav>
             </header>
             <Outlet />
-            <footer>
-                
-            </footer>
+            <NavLink to="https://github.com/gnoatx">
+                <footer className={styles.footer}>
+                    <strong>
+                        <span className={styles.credit}>Victor Gnoato</span> @ 2024
+                    </strong>
+                </footer>
+            </NavLink>
         </>
     )
 }

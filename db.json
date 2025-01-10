@@ -1,0 +1,67 @@
+{
+    "videos": [
+        {
+            "title": "Guia de carreira Front-end",
+            "category": 0,
+            "imagePath": "src\\assets\\thumbnails\\front1.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=fpth65ts3cw",
+            "description": "Nesse primeiro episódio, confira o que é front-end e como seguir nessa área da tecnologia, através do Tech Guide front-end, um Guia de Estudos do iniciante ao avançado. São 3 níveis de Profundidade e 1 nível de Expansão, formando seu perfil como Dev Front-End em T."
+        },
+        {
+            "title": "O que faz uma desenvolvedora front-end?",
+            "category": 0,
+            "imagePath": "src\\assets\\thumbnails\\front2.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+            "description": "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio!"
+        },
+        {
+            "title": "Como deixar o Layout Responsivo no seu site",
+            "category": 0,
+            "imagePath": "src\\assets\\thumbnails\\front3.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=kyFiT4ofMwk",
+            "description": "Aprenda responsividade na prática com este tutorial sobre como transformar seu site num layout responsivo através do uso de ferramentas de desenvolvedor do seu navegador, o visual studio code e códigos CSS: media screen, container, propriedades CSS e mais."
+        },
+        {
+            "title": "Se prepare para uma entrevista de dev back-end",
+            "category": 1,
+            "imagePath": "src\\assets\\thumbnails\\back1.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=jzZdMEP8EkY",
+            "description": "Nesse episódio, Fabrício Carraro *fez uma simulação de entrevista de emprego com Juliana Amoasei, desenvolvedora e instrutora na Alura, para uma vaga de dev back-end*. Então, se você está procurando uma vaga de emprego em back-end, não pode perder essa oportunidade de se preparar para uma entrevista de forma mais estratégica."
+        },
+        {
+            "title": "Ecossistema Node.js",
+            "category": 1,
+            "imagePath": "src\\assets\\thumbnails\\back2.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=2hrIwQWx9w4",
+            "description": "Recebemos a Juliana Amoasei, uma das nossas instrutoras, para falar sobre as principais bibliotecas e frameworks desse imenso ecossistema do Node.JS."
+        },
+        {
+            "title": "Guia de Carreira PHP",
+            "category": 1,
+            "imagePath": "src\\assets\\thumbnails\\back3.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=ETohL_o3SEI",
+            "description": "Para você que busca por um ROADMAP ou TUTORIAL e se pergunta \"o que é preciso para aprender PHP?\" ou mesmo \"quanto tempo leva para aprender?\", preparamos o Tech Guide, o seu GUIA de Carreira PHP, com Cursos, Formações, Artigos e muito conteúdo para você construir sua profissão em tecnologia."
+        },
+        {
+            "title": "Desmistificando Mobile- Por onde eu começo?",
+            "category": 2,
+            "imagePath": "src\\assets\\thumbnails\\mobile1.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=2z6f8VN_Pro",
+            "description": "A Websérie “Desmistificando o mobile” vêm aí para simplificar com exemplos práticos vários assuntos envolvendo o mundo dos aplicativos de celular e neste primeiro episódio vamos partir, literalmente, do começo, por onde começar a estudar sobre o mundo dos apps? Os instrutores da escola de mobile da Alura nos ajudam com essa tarefa 😉"
+        },
+        {
+            "title": "Flutter: Configurando cores dinâmicas",
+            "category": 2,
+            "imagePath": "src\\assets\\thumbnails\\mobile2.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=gI4-vj0WpKM",
+            "description": "Com o Flutter, deixe os componentes de tela dinâmicos para aplicação de cores no tema do seu app. Este Alura+ é especial para Devs Mobile! 📱✨ O Matheus Alberto, Instrutor aqui na Escola Mobile da Alura, vai ensinar você a deixar os componentes da tela dinâmicos em relação ao tema da aplicação."
+        },
+        {
+            "title": "Executando código mobile pelo Smartphone",
+            "category": 2,
+            "imagePath": "src\\assets\\thumbnails\\mobile3.jpg",
+            "videoUrl": "https://www.youtube.com/watch?v=U885ON-D_G0",
+            "description": "Executar o código de aplicativos no smartphone tem diversas vantagens para Devs Mobile. Uma delas é exatamente a possibilidade ver exatamente como sua aplicação está funcionando e o resultado final, diferente de apenas emular seu uso."
+        }
+    ]
+}
