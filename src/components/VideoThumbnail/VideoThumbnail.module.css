@@ -1,0 +1,74 @@
+.toolbar {
+    background-color: #000;
+    margin-top: -10px;
+    padding-top: 10px;
+    border-radius: 0 0 10px 10px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cat0 .toolbar {
+    border-color: #6BD1FF;
+}
+
+.cat1 .toolbar {
+    border-color: #00C86F;
+}
+
+.cat2 .toolbar {
+    border-color: #FFBA05;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cat0 .glow {
+    box-shadow: 0 0 10px 2px inset #6BD1FF;
+}
+
+.cat1 .glow {
+    box-shadow: 0 0 10px 2px inset #00C86F;
+}
+
+.cat2 .glow {
+    box-shadow: 0 0 10px 2px inset #FFBA05;
+}
+
+.thumb {
+    position: relative;
+    height: 180px;
+    width: 320px;
+}
+
+.glow {
+    position: absolute;
+    z-index: 2;
+    height: 180px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+.img {
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+}

@@ -8,6 +8,8 @@
     padding: 20px 30px;
     border-bottom: 4px solid #2271D1;
     position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .nav {
@@ -27,6 +29,7 @@
     border-top: 4px solid #2271D1;
     position: fixed;
     bottom: 0;
+    z-index: 999;
 }
 
 .credit {

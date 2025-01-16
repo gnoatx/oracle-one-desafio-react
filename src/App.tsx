@@ -3,21 +3,14 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import DefaultLayout from './layouts/DefaultLayout'
 import './App.css'
 import { createContext } from 'react'
-import { Video, Category } from './classes/video'
+import { Video } from './classes/video'
 import DB from '../db.json'
 import Home from './routes/Home'
 
+export const VideosContext = createContext<Video[]>([])
+
 function App() {
-  const VideosContext = createContext<Video[]>([])
-  const videos = DB.videos.map((video): Video => (
-    new Video(
-      video.title,
-      Category[video.category],
-      video.imagePath,
-      video.videoUrl,
-      video.description
-    )
-  ))
+  const videos = DB.videos as Video[]
 
   return (
     <>
