@@ -1,9 +1,10 @@
 import { Category } from "../../classes/video"
 import styles from './VideoCategory.module.css'
+import { ReactNode } from 'react'
 
 type VideoCategoryProps = {
     type: number,
-    children: JSX.Element[]
+    children: ReactNode
 }
 
 export default function VideoCategory({ type, children }: VideoCategoryProps) {

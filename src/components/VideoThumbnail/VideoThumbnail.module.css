@@ -29,7 +29,7 @@
     border: none;
     color: white;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 0.65rem;
     font-weight: bold;
     cursor: pointer;
     display: flex;
@@ -39,6 +39,25 @@
     padding-bottom: 5px;
     padding-left: 30px;
     padding-right: 30px;
+    transition: 0.2s;
+}
+
+.cat0 .button:hover {
+    text-shadow:
+        1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+        0 4px 0 #6BD1FF, 0 -4px 0 #6BD1FF;
+}
+
+.cat1 .button:hover {
+    text-shadow:
+        1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+        0 4px 0 #00C86F, 0 -4px 0 #00C86F;
+}
+
+.cat2 .button:hover {
+    text-shadow:
+        1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000,
+        0 4px 0 #FFBA05, 0 -4px 0 #FFBA05;
 }
 
 .cat0 .glow {

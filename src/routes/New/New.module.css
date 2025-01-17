@@ -1,0 +1,80 @@
+.new-video {
+    padding-bottom: 100px;
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-weight: 400;
+}
+
+.form {
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    display: grid;
+    grid-template:
+        "a a a a" auto
+        "b b b c" auto
+        "d d e e" auto
+        "f f f f" auto / 1fr 1fr 1fr 1fr;
+        row-gap: 30px;
+}
+
+.legend {
+    font-size: 1.5rem;
+    border-top: 2px solid rgb(63, 63, 63);
+    border-bottom: 2px solid rgb(63, 63, 63);
+    padding: 15px 0;
+    grid-area: a;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    gap: 15px;
+}
+
+.input {
+    background-color: #0000000e;
+    border: 2px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+
+.title-input {
+    grid-area: b;
+}
+
+.category-input {
+    grid-area: c;
+}
+
+.imagePath-input {
+    grid-area: d;
+}
+
+.videoUrl-input {
+    grid-area: e;
+}
+
+.description-input {
+    grid-area: f;
+}
