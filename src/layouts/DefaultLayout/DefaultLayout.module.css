@@ -10,6 +10,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    box-shadow: 0 0 10px 1px #2271D1;
 }
 
 .nav {
@@ -30,6 +31,7 @@
     position: fixed;
     bottom: 0;
     z-index: 999;
+    box-shadow: 0 0 10px 1px #2271D1;
 }
 
 .credit {

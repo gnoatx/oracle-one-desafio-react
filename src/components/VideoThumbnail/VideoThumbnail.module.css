@@ -76,6 +76,7 @@
     position: relative;
     height: 180px;
     width: 320px;
+    cursor: pointer;
 }
 
 .glow {

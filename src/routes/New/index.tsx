@@ -11,29 +11,32 @@ export default function New() {
                 <legend className={styles.legend}>Criar Card</legend>
                 <fieldset className={`${styles.field} ${styles['title-input']}`}>
                     <label htmlFor="title">Título</label>
-                    <input type="text" name="title" id="title" className={styles.input} autoFocus />
+                    <input required type="text" name="title" id="title" placeholder='Digite o título do vídeo' className={styles.input} autoFocus />
                 </fieldset>
                 <fieldset className={`${styles.field} ${styles['category-input']}`}>
                     <label htmlFor="category">Categoria</label>
-                    <select name="category" id="category" className={styles.input}>
-                        <option value="0">Front End</option>
-                        <option value="1">Back End</option>
-                        <option value="2">Mobile</option>
+                    <select required name="category" id="category" className={styles.input}>
+                        <option value="0" className={styles.option}>Front End</option>
+                        <option value="1" className={styles.option}>Back End</option>
+                        <option value="2" className={styles.option}>Mobile</option>
                     </select>
                 </fieldset>
                 <fieldset className={`${styles.field} ${styles['imagePath-input']}`}>
                     <label htmlFor="imagePath">Capa</label>
-                    <input type="url" name="imagePath" id="imagePath" className={styles.input} />
+                    <input required type="url" name="imagePath" id="imagePath" placeholder='Digite ou cole o link da imagem de capa' className={styles.input} />
                 </fieldset>
                 <fieldset className={`${styles.field} ${styles['videoUrl-input']}`}>
                     <label htmlFor="videoUrl">Vídeo</label>
-                    <input type="url" name="videoUrl" id="videoUrl" className={styles.input} />
+                    <input required type="url" name="videoUrl" id="videoUrl" placeholder='https://www.youtube.com/watch?v=a1B2c3D4e5F' className={styles.input} />
                 </fieldset>
                 <fieldset className={`${styles.field} ${styles['description-input']}`}>
                     <label htmlFor="description">Descrição</label>
-                    <textarea name="description" id="description" className={styles.input} placeholder='Teste'></textarea>
+                    <textarea required name="description" id="description" placeholder='Digite uma descrição para o vídeo' className={styles.input} rows={5}></textarea>
                 </fieldset>
-
+                <fieldset className={styles['button-bar']}>
+                    <button className={styles.button}>Salvar</button>
+                    <button className={styles.button}>Limpar</button>
+                </fieldset>
             </form>
         </main>
     )
